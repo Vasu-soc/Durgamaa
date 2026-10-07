@@ -1,0 +1,21 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Large media files
+*.mp4
+
+# Environment & logs
+.env
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db

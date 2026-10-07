@@ -1,0 +1,23 @@
+{
+  "name": "durgamaa-particle-animation",
+  "version": "1.0.0",
+  "description": "Cinematic devotional particle animation and drawing of Goddess Durga Maa seated on a lion with circular wall of flames.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "serve": "node server.js",
+    "build": "echo \"Static build ready for Vercel deployment\""
+  },
+  "keywords": [
+    "durga-maa",
+    "webgl",
+    "particle-system",
+    "animation",
+    "devotional",
+    "canvas",
+    "vercel"
+  ],
+  "author": "",
+  "license": "MIT"
+}

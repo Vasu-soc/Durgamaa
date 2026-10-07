@@ -1,0 +1,18 @@
+{
+  "name": "Goddess Durga Maa - Cinematic Devotional Animation",
+  "short_name": "Durga Maa",
+  "description": "Cinematic devotional particle animation and golden drawing of Goddess Durga Maa seated on a lion surrounded by a circular wall of flames.",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#060302",
+  "theme_color": "#060302",
+  "icons": [
+    {
+      "src": "durga_ref.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}

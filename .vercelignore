@@ -1,0 +1,11 @@
+# Files to exclude from Vercel deployment
+*.mp4
+*.py
+*.pyc
+__pycache__/
+.git/
+.gitignore
+.agents/
+.gemini/
+node_modules/
+*.log
