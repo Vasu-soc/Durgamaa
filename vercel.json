@@ -1,5 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": null,
+  "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
@@ -25,7 +28,7 @@
       ]
     },
     {
-      "source": "/(drawing_data.js|particles_data.js|durga_ref.jpg|manifest.json)",
+      "source": "/(particles_data.js|durga_ref.jpg|manifest.json)",
       "headers": [
         {
           "key": "Cache-Control",
