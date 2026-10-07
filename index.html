@@ -41,16 +41,26 @@
       <!-- Layer 2: Main WebGL particle animation canvas -->
       <canvas id="particle-canvas"></canvas>
       
-      <!-- Layer 3: Rising foreground embers and sparks -->
+      <!-- Layer 3: Dynamic artist sketch strokes & golden stylus canvas -->
+      <canvas id="sketch-canvas"></canvas>
+      
+      <!-- Layer 4: Rising foreground embers and sparks -->
       <canvas id="embers-canvas"></canvas>
       
-      <!-- Layer 4: Cinematic optical vignette -->
+      <!-- Layer 5: Cinematic optical vignette -->
       <div class="vignette-overlay"></div>
       
-      <!-- Layer 5: Minimalist pure icon controls -->
+      <!-- Layer 6: Minimalist pure icon controls -->
       <div id="hud-overlay">
         <div class="hud-top">
           <div class="hud-group hud-left">
+            <!-- Mode Toggle: Paint Sketch Drawing / Cosmic Swirl -->
+            <button id="mode-btn" class="glass-icon-btn active" aria-label="Drawing Sketch Mode" title="Sketch Drawing Mode">
+              <svg viewBox="0 0 24 24">
+                <path d="M7 14c-1.66 0-3 1.34-3 3 0 1.31-1.16 2-2 2 .92 1.22 2.49 2 4 2 2.21 0 4-1.79 4-4 0-1.66-1.34-3-3-3zm13.71-9.71a1 1 0 0 0-1.41 0l-9.59 9.58 2.83 2.83 9.59-9.59c.39-.38.39-1.02 0-1.41l-1.42-1.41z"/>
+              </svg>
+            </button>
+
             <!-- Replay Button -->
             <button id="replay-btn" class="glass-icon-btn replay-icon-btn" aria-label="Replay">
               <svg viewBox="0 0 24 24">

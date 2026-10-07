@@ -63,6 +63,7 @@ html, body {
 /* Layer Canvases */
 #aura-canvas,
 #particle-canvas,
+#sketch-canvas,
 #embers-canvas {
   position: absolute;
   top: 0;
@@ -84,9 +85,14 @@ html, body {
   cursor: crosshair;
 }
 
-#embers-canvas {
+#sketch-canvas {
   pointer-events: none;
   z-index: 3;
+}
+
+#embers-canvas {
+  pointer-events: none;
+  z-index: 4;
 }
 
 /* Optical Vignette */
